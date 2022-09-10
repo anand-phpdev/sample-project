@@ -1,15 +1,29 @@
 @font-face {
     font-family: 'B612 Mono';
-    src: url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.eot');
-    src: url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.woff2') format('woff2'),
-        url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.woff') format('woff'),
-        url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.ttf') format('truetype'),
-        url('http://localhost/sample-project/assets/fonts/B612Mono-Regular.svg#B612Mono-Regular') format('svg');
+    src: url('//localhost/sample-project/assets/fonts/B612Mono-Regular.eot');
+    src: url('//localhost/sample-project/assets/fonts/B612Mono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('//localhost/sample-project/assets/fonts/B612Mono-Regular.woff2') format('woff2'),
+        url('//localhost/sample-project/assets/fonts/B612Mono-Regular.woff') format('woff'),
+        url('//localhost/sample-project/assets/fonts/B612Mono-Regular.ttf') format('truetype'),
+        url('//localhost/sample-project/assets/fonts/B612Mono-Regular.svg#B612Mono-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('//localhost/sample-project/assets/fonts/Cabin-Regular.eot');
+    src: url('//localhost/sample-project/assets/fonts/Cabin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('//localhost/sample-project/assets/fonts/Cabin-Regular.woff2') format('woff2'),
+        url('//localhost/sample-project/assets/fonts/Cabin-Regular.woff') format('woff'),
+        url('//localhost/sample-project/assets/fonts/Cabin-Regular.ttf') format('truetype'),
+        url('//localhost/sample-project/assets/fonts/Cabin-Regular.svg#Cabin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 #smapleproject .container {
     max-width: 1000px;
@@ -21,32 +35,82 @@
 #smapleproject .logo-text {
     font-size: 30px;
     font-weight: 400;
+    font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.main-header {
+#smapleproject .main-header {
     padding-top: 10px;
     margin: auto;
 }
 
-.main-header-flex {
+#smapleproject .main-header-flex {
     display: flex;
 }
 
-.flexed {
+#smapleproject .flexed {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.search-bar1 {
-    border: 0px;
+#smapleproject .search-bar1 {
+   border: 0px;
     border-radius: 32px;
     width: 216px;
     height: 50px;
     background: #fff;
-    box-shadow: 1px 1px 2px rgba(170, 170, 204, 0.5), -1px -1px 2px #FFFFFF;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.7;
+    box-shadow: 1px 1px 2px rgb(170 170 204 / 50%), -1px -1px 2px #ffffff;
 }
-input::placeholder {
+#smapleproject input::placeholder {
     text-align: left;
     color: black;
+}
+
+
+#smapleproject .sbt-btn{
+	   border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 18px;
+    padding: 12px;
+    margin-left: 6px;
+    width: 50px;
+}
+
+#smapleproject .main-menu ul.ul-menu{
+	margin: 40px 0px;
+    padding: 0px;
+}
+
+#smapleproject .main-menu ul.ul-menu li{
+	list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    font-family: "B612 Mono",monospace;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing:0.8px;
+    color:#000;
+}
+
+#smapleproject .bottom-line{
+	    transition: .3s all ease;
+    border-top: 1px solid #efefef;
+    margin-top: -20px;
+}
+
+#smapleproject .top-margin {
+	margin-top:15px;
+}
+
+#smapleproject .main-heading{
+    font-size: 30px;
+    color: #000;
+    font-family: "Cabin",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: 20px;
+    font-weight: 500;
 }
