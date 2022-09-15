@@ -318,6 +318,33 @@
   flex:1;
 }
 
+.form-section {
+  background-color: #f8f9fa!important;
+  padding: 50px;
+  margin-bottom: 40px;
+
+}
+
+.form-section input,
+.form-section textarea{
+  border-radius: 20px;
+  background: transparent;
+  padding: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0px 1px 1px 0px #666;
+  margin-bottom: 20px;
+}
+
+#smapleproject .post-comment-button{
+  background-color: #000;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.lable-name{
+  color:#666;
+}
+
 
  
 
